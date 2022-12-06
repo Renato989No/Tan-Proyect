@@ -1,0 +1,6 @@
+npm install --global yarn
+npm install -g @vue/cli
+Set-ExecutionPolicy Unrestricted -Scope Process
+yarn install
+yarn run lint --fix (Si hay error de "prettier/prettier")
+yarn serve
